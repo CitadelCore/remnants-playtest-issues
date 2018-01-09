@@ -1,9 +1,29 @@
 # Upcoming
 - New maps: *ee_morko* and *street*.
-- Added minitrain to *under*.
 - Better skybox in *house*.
 - Transition to *street* in *house*.
-- Fixed a lot of the known bugs in Version 1.0.1.
+
+# 9 January 2017 (Version 1.0.2)
+Added one new map: bank, and fixed a lot of the known bugs in Version 1.0.1.
+
+## Known bugs:
+- Minitrain in *under* stutters when turning corners.
+- Generator sound issue in *house* is not fixed yet - I'm working on it.
+- Hacker den sequence in *bank* is unfinished and is not functionally complete yet.
+- Couple of lighting artifacts in *bank*.
+- There is a flood door in the warehouse in *under* that leads to a wall. This is intentional as the area beyond is unfinished.
+- Use highlights are still missing for the sledgehammer in *house*. I'm not sure how to fix this as I've already added hints.
+
+## Changes:
+### under
+- Added minitrain. THIS IS NOT FUNCTIONALLY COMPLETE YET!
+- Fixed any item being able to be used as a fuse (#27)
+
+### house
+- Added blinds to toilet window (issue #6)
+
+### menu
+- Fixed Morko clipping into the table (#29)
 
 # 14th October 2017 (Version 1.0.1)
 ## Known bugs:
